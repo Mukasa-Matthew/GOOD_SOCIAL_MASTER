@@ -26,3 +26,4 @@ non_suicide_df = pd.DataFrame(
 
 df = pd.concat([suicide_df, non_suicide_df], axis=0)
 df.to_csv('./mergedData.csv', index=False)
+##mege Cell
